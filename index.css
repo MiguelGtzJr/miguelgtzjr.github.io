@@ -1,0 +1,94 @@
+.text-destacado{
+    color: lightskyblue !important;
+}
+
+.btn-contacto{
+    background-color: rgb(18, 18, 155);
+    color: whitesmoke;
+}
+
+.btn-enviar{
+    background-color:rgb(18, 18, 155);
+    color: whitesmoke;
+}
+
+.btn-enviar:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.btn-contacto:hover{
+    background-color: #9c715c;
+    color: whitesmoke;
+}
+
+#header img{
+    width: 80px;
+}
+
+.carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+
+    height: 100%;
+
+
+}
+
+#contacto {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+#footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: hotpink
+}
+
+.fondo-footer{
+    background: linear-gradient(90deg, rgb(1, 0, 15) 0%, rgb(6, 6, 73) 35%, rgb(0, 146, 175) 100%);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.fondo-footer p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.fondo-footer span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
